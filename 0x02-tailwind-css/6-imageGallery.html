@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid, Flexbox & Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="./output.css" rel="stylesheet" />
+</head>
+
+<body class="p-4 bg-gray-50 min-h-screen">
+  <!-- Header -->
+  <header class="bg-blue-500 text-white p-4 rounded shadow mb-6">
+    <h1 class="text-3xl font-bold">Grid and Flexbox Layout</h1>
+  </header>
+
+  <!-- Main Layout -->
+  <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-10">
+    <!-- Flexbox Section -->
+    <section class="lg:col-span-2 flex flex-col md:flex-row gap-4">
+      <div class="w-full md:w-1/2 bg-red-200 p-4 rounded">Flexbox Item 1</div>
+      <div class="w-full md:w-1/2 bg-red-400 p-4 rounded">Flexbox Item 2</div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="bg-green-200 p-4 rounded shadow">
+      Sidebar
+    </aside>
+  </main>
+
+  <!-- 📸 Responsive Image Gallery -->
+  <section>
+    <h2 class="text-2xl font-semibold text-gray-800 mb-4 text-center">
+      Image Gallery
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="https://cdn.pixabay.com/photo/2024/07/25/23/56/interior-design-8922413_1280.jpg" alt="Gallery 1" class="w-full h-auto rounded shadow" />
+      <img src="https://cdn.pixabay.com/photo/2017/07/09/03/19/home-2486092_1280.jpg" alt="Gallery 2" class="w-full h-auto rounded shadow" />
+      <img src="https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181947_640.jpg" alt="Gallery 3" class="w-full h-auto rounded shadow" />
+      <img src="https://cdn.pixabay.com/photo/2014/12/27/14/37/living-room-581073_640.jpg" alt="Gallery 4" class="w-full h-auto rounded shadow" />
+      <img src="https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070_640.jpg" alt="Gallery 5" class="w-full h-auto rounded shadow" />
+      <img src="https://cdn.pixabay.com/photo/2016/11/22/23/38/apartment-1851201_640.jpg" alt="Gallery 6" class="w-full h-auto rounded shadow" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-4 mt-10 rounded shadow text-center">
+    <p>&copy; 2024 John Doe's Blog</p>
+  </footer>
+</body>
+</html>
