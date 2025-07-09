@@ -1,0 +1,11 @@
+# Step-by-step process to install SASS
+
+# 3. Installed Node.js version 20.16.0 using NVM
+nvm install 20.16.0
+nvm use 20.16.0
+
+# 4. Installed SASS version 3.7.4
+npm install sass@3.7.4
+
+# (Optional) To install it globally:
+# npm install -g sass@3.7.4
