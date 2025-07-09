@@ -1,11 +1,18 @@
-# Step-by-step process to install SASS
+# SASS Installation Summary
+cd ~
+# 1. Navigated to the ALX intermediate frontend project
+cd alx-intermediate-frontend
+
+# 2. Created a new directory for the SASS/SCSS tasks
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
 
 # 3. Installed Node.js version 20.16.0 using NVM
 nvm install 20.16.0
 nvm use 20.16.0
 
-# 4. Installed SASS version 3.7.4
+# 4. Installed SASS version 3.7.4 locally using npm
 npm install sass@3.7.4
 
-# (Optional) To install it globally:
-# npm install -g sass@3.7.4
+# 5. Created this installation script file to document all steps
+touch 0-installation-script
