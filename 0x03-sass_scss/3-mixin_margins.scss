@@ -1,0 +1,15 @@
+// Create a mixin that accepts one value and applies it to left and right margins
+@mixin set-horizontal-margin($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+
+body {
+  @include set-horizontal-margin(10px);
+}
+
+
+div {
+  @include set-horizontal-margin(15px);
+}
