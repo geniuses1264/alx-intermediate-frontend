@@ -1,0 +1,10 @@
+$zero-size: 10px; // We will only use this variable for <p> tags inside body
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  p {
+    margin: $zero-size;
+  }
+}
